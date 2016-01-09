@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="app">
+   <head>
+      <title>Flask e-shop</title>
+      <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" />
+      <link rel="stylesheet" href="static/css/default.css" />
+      
+   </head>
+   <body role="document">
+      <div role="navigation" class="navbar navbar-inverse navbar-fixed-top">
+         <div class="container">
+            <div class="navbar-header"><button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" class="navbar-brand">Flask e-shop<br/> <small>Eletronic shopping</small> </a></div>
+            <div class="navbar-collapse collapse">
+               <ul class="nav navbar-nav">
+                  <li><a href="/#/sobre">About us</a></li>
+                  <li><a href="/#/projetos">Products</a></li>
+                  <li><a href="/#/contatos">Contacts</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+      <br/>
+      <br/>
+
+      <div class="container">
+         {% block content %}
+         {% endblock %}
+      </div>
+
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+   </body>
+</html>

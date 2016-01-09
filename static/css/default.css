@@ -1,0 +1,36 @@
+a.navbar-brand{
+	color:#F2B20E !important;
+	font-weight: bold;
+	line-height: 13px;
+}
+
+
+.navbar-brand > small{
+	color:#CCC !important;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.layer-scroll{
+	min-height: 100%;
+	margin-bottom: 8%;
+}
+
+.navbar-inverse{
+	background: #333;
+}
+.navbar-nav > li > a{
+	color: #FFF;
+}
+
+.test {
+    white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	white-space: pre-wrap;       /* css-3 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
+	word-break: break-all;
+	white-space: normal;
+
+} 
